@@ -3,7 +3,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { useUser, useClerk } from "@clerk/clerk-react";
+// import { useUser, useClerk } from "@clerk/clerk-react";
+import { useClerk } from "@clerk/clerk-react";
 import { useNavigate } from "react-router-dom";
 import { useSession } from "@clerk/clerk-react";
 // const API = "http://localhost:8080/api";
