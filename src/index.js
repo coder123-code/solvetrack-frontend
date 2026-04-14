@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import { ClerkProvider } from '@clerk/clerk-react';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from "react-router-dom";
+// import { BrowserRouter } from "react-router-dom";
 import { HashRouter } from "react-router-dom";
 
 const CLERK_PUBLISHABLE_KEY = process.env.REACT_APP_CLERK_PUBLISHABLE_KEY;
